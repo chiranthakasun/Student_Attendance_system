@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-card {
+    width: 290px;
+    padding: 22px;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 24px;
+}
+
+.login-card h2 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    white-space: nowrap;
+}
+
+.login-card label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.login-card input {
+    width: 100%;
+    height: 44px;
+    margin-bottom: 18px;
+    padding: 0 14px;
+    font-size: 16px;
+    font-family: inherit;
+    color: #222;
+    background: #fff;
+    border: 1px solid #888;
+    border-radius: 10px;
+    outline: none;
+}
+
+.login-card input::placeholder {
+    color: #888;
+}
+
+.login-card input:focus {
+    border-color: #0044e6;
+    box-shadow: 0 0 0 2px rgba(0, 68, 230, 0.15);
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 4px;
+}
+
+.btn-login {
+    padding: 0 22px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(to bottom, #1a66ff, #0033cc);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 51, 204, 0.35);
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background: linear-gradient(to bottom, #2e75ff, #0a3fd6);
+}
+
+.register-link {
+    font-size: 14px;
+    color: #0044e6;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+.error {
+    margin-bottom: 14px;
+    padding: 9px 12px;
+    font-size: 13px;
+    color: #b00020;
+    background: #fdecee;
+    border: 1px solid #f5b5bd;
+    border-radius: 8px;
+}
+
+.select-box {
+    width: 100%;
+    height: 44px;
+    margin-bottom: 18px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: inherit;
+    background: #fff;
+    border: 1px solid #888;
+    border-radius: 10px;
+}
